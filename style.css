@@ -1,6 +1,13 @@
+/*Seletores de Tag:*/
 *{
     margin: 0;
     padding: 0;
+}
+
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
 }
 
 header{
@@ -8,21 +15,81 @@ header{
     text-align: center;
     color: white;
     padding: 10px;
+ 
 }
 
-body{
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: black;
+section{
+    padding: 20px;
+    background-image: url("./images/people.jpg");
+    background-size: cover;
+    overflow: hidden;
+ 
 }
 
+h2{
+    font-size: 16px;
+}
 
+input,select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+}
 
-/* Classes:*/
+input[type="submit"]{
+    color: white;
+    background-color: #48c5ce;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+select{
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none ;
+
+    background-image: url("./images/arrow.jpg");
+    background-repeat: no-repeat;
+    
+    background-position-x: calc(100% - 10px);
+    background-position-y: center;
+}
+
+h3{
+    padding: 10px;
+}
+
+/* Seletores de classes:*/
+
+.div_principal{
+    max-width: 1000px;
+    margin: auto;
+}
 .title{
     font-size: 26px;
 }
 
+.formContainer{
+    max-width: 230px;
+    background-color: #FFFFFFBB;
+    padding: 20px;
+    float: right;
 
+}
 
+.Caixa_espaco{
+    margin-bottom: 15px;
+}
+
+.picture{
+    max-width: 180px;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: auto;
+}
+
+/*Id's:*/
 
 
